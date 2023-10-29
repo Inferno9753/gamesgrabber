@@ -46,7 +46,7 @@ const Home = () => {
 
   return (
     <div className="bg-neutral-800 h-screen flex justify-center ">
-      <div className=" p-8 rounded-lg w-96">
+      <div className=" p-20 rounded-lg w-96">
         <h2 className="text-3xl text-amber-500 font-semibold mb-20 text-center ">GAMESGRABBER</h2>
         <button
           onClick={handlePlay}
@@ -60,13 +60,8 @@ const Home = () => {
           About the Game
         </button>
         <button
-          className="text-lg mb-12 w-full bg-transparent hover:bg-amber-500 text-amber-500 font-semibold hover:text-white py-2 px-4 border border-amber-500 hover:border-transparent rounded"
-        >
-          LeaderBoard
-        </button>
-        <button
           onClick={handleLogout}
-          className="text-lg mb-12 w-full bg-transparent hover:bg-amber-500 text-amber-500 font-semibold hover:text-white py-2 px-4 border border-amber-500 hover:border-transparent rounded"
+          className="text-lg mb-20 w-full bg-transparent hover:bg-amber-500 text-amber-500 font-semibold hover:text-white py-2 px-4 border border-amber-500 hover:border-transparent rounded"
         >
           Logout
         </button>
