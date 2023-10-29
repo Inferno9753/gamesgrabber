@@ -14,8 +14,8 @@ const Home = () => {
     navigate("/play");
   }
 
-  const handleLeaderBoard = () => {
-    navigate("/leaderboard");
+  const handleAbout = () => {
+    navigate("/about");
   }
 
   const handleLogout = async () => {
@@ -55,6 +55,7 @@ const Home = () => {
           Play Game
         </button>
         <button
+          onClick={handleAbout}
           className="text-lg mb-12 w-full bg-transparent hover:bg-amber-500 text-amber-500 font-semibold hover:text-white py-2 px-4 border border-amber-500 hover:border-transparent rounded"
         >
           About the Game

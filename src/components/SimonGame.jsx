@@ -144,7 +144,7 @@ function SimonGame() {
     <>
       <div className="flex flex-col justify-center items-center bg-neutral-800 text-white w-screen h-screen">
         {/* Game container */}
-        <div className="relative flex flex-col justify-center items-center">
+        <div className="relative flex flex-col justify-center items-center mb-12">
           {/* Green and red container */}
           <div>
             {/* Green button */}
@@ -196,9 +196,9 @@ function SimonGame() {
           </button>
         </div>
         <div className="flex mt-3">
-          {retry ? (<h1>your score: {score}</h1>):(<div>
-              <button onClick={resetGame}>Restart</button>
-              <button onClick={handleChange}>Main Menu</button>
+          {retry ? (<h1 className='text-2xl text-red-500 flex justify-center'>Your score: {score}</h1>):(<div>
+              <button className="text-lg mb-12 w-full bg-transparent hover:bg-amber-500 text-amber-500 font-semibold hover:text-white py-2 px-4 border border-amber-500 hover:border-transparent rounded" onClick={resetGame}>Restart</button>
+              <button className="text-lg mb-12 w-full bg-transparent hover:bg-amber-500 text-amber-500 font-semibold hover:text-white py-2 px-4 border border-amber-500 hover:border-transparent rounded" onClick={handleChange}>Main Menu</button>
             </div>)}
         </div>
       </div>
