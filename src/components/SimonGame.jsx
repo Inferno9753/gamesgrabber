@@ -149,7 +149,7 @@ function SimonGame() {
           <div>
             {/* Green button */}
             <GameBtn
-              color="green"
+              color="green" 
               border="rounded-tl-full"
               bg="bg-green-500"
               onClick={handleColorClick}
